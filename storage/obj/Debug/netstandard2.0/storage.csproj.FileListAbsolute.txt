@@ -1,0 +1,9 @@
+/home/rineshkumar/technical/rough/azure/azuresolution/storage/bin/Debug/netstandard2.0/storage.deps.json
+/home/rineshkumar/technical/rough/azure/azuresolution/storage/bin/Debug/netstandard2.0/storage.dll
+/home/rineshkumar/technical/rough/azure/azuresolution/storage/bin/Debug/netstandard2.0/storage.pdb
+/home/rineshkumar/technical/rough/azure/azuresolution/storage/obj/Debug/netstandard2.0/storage.csprojAssemblyReference.cache
+/home/rineshkumar/technical/rough/azure/azuresolution/storage/obj/Debug/netstandard2.0/storage.AssemblyInfoInputs.cache
+/home/rineshkumar/technical/rough/azure/azuresolution/storage/obj/Debug/netstandard2.0/storage.AssemblyInfo.cs
+/home/rineshkumar/technical/rough/azure/azuresolution/storage/obj/Debug/netstandard2.0/storage.csproj.CoreCompileInputs.cache
+/home/rineshkumar/technical/rough/azure/azuresolution/storage/obj/Debug/netstandard2.0/storage.dll
+/home/rineshkumar/technical/rough/azure/azuresolution/storage/obj/Debug/netstandard2.0/storage.pdb

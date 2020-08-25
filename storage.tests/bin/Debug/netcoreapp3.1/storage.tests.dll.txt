@@ -1,0 +1,4 @@
+storage.tests.BlobHandlerTests.LoadBlob
+storage.tests.BlobHandlerTests.DownloadBlob
+storage.tests.BlobHandlerTests.ListBlobs
+storage.tests.BlobHandlerTests.DeleteBlob
