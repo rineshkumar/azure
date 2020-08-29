@@ -1,0 +1,5 @@
+{
+    "ConnectionStrings": {
+        "saConnectionString": "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=mrrksa;AccountKey=L4gPn4YSDsNz5U0sCSgBeELMZspEqnoAkqbH/CNhWmcBlyTjt/GmeImb2UBUzzcDXgGDwRkWEBckdN6ZrsPhhA=="
+    }
+}
