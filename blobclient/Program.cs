@@ -21,7 +21,7 @@ namespace mrrkazure.blobclient
             System.Console.WriteLine("Press to continue");
             // Console.ReadLine();
             string localPath = "./data";
-            string fileName = "mrrkfile" + Guid.NewGuid();
+            string fileName = "mrrkfile" + Guid.NewGuid() + ".txt";
             string localFilePath = Path.Combine(localPath + fileName);
             await File.WriteAllTextAsync(localFilePath, "Hello World");
             var blobClient = blobContainerClient.GetBlobClient(fileName);
@@ -30,7 +30,12 @@ namespace mrrkazure.blobclient
             {
                 await blobClient.UploadAsync(fileStreamForupload, true);
             }
-            
+            var downloadFilePath = localFilePath.Replace(".txt", ".download.txt");
+            BlobDownloadInfo download = await blobClient.DownloadAsync();
+            using (FileStream fileStreamForWriting = File.OpenWrite(downloadFilePath))
+            {
+                    await download.Content.CopyToAsync(fileStreamForWriting);
+            }
         }
     }
 }
