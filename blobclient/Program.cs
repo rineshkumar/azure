@@ -10,7 +10,7 @@ namespace mrrkazure.blobclient
     {
         public static async Task Main()
         {
-
+            string connectionString = Environment.GetEnvironmentVariable("AZURE_STORAGE_CONNECTION_STRING");
         }
     }
 }
