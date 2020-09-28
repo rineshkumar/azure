@@ -1,12 +1,16 @@
-﻿using System;
+﻿using Azure.Storage.Blobs;
+using Azure.Storage.Blobs.Models;
+using System;
+using System.IO;
+using System.Threading.Tasks;
 
-namespace blobclient
+namespace mrrkazure.blobclient
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static async Task Main()
         {
-            Console.WriteLine("Hello World!");
+
         }
     }
 }
