@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/blobclient/bin/Debug/netcoreapp3.1/blobclient.dll",
             "args": [],
             "cwd": "${workspaceFolder}/blobclient",
-            "console": "internalConsole",
+            "console": "integratedTerminal",
             "stopAtEntry": false
         },
         {
