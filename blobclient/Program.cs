@@ -34,8 +34,14 @@ namespace mrrkazure.blobclient
             BlobDownloadInfo download = await blobClient.DownloadAsync();
             using (FileStream fileStreamForWriting = File.OpenWrite(downloadFilePath))
             {
-                    await download.Content.CopyToAsync(fileStreamForWriting);
+                await download.Content.CopyToAsync(fileStreamForWriting);
             }
+            System.Console.WriteLine("Press any key to delete the container ");
+            Console.ReadLine();
+            await blobContainerClient.DeleteAsync();
+            File.Delete(localFilePath);
+            File.Delete(downloadFilePath);
+            System.Console.WriteLine(   "Done");
         }
     }
 }
